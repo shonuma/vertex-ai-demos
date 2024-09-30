@@ -1,0 +1,6 @@
+[user]
+	emal = onumasho@example.com
+	name = onumasho
+	email = onumasho@example.com
+[safe]
+	directory = /google/flutter
