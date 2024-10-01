@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gemini Generated Output サンプルアプリ</title>
+    <title>Gemini Controlled generation サンプルアプリ</title>
 </head>
 <body>
-    <h1>Gemini Generated Output サンプルアプリ</h1>
+    <h1>Gemini Controlled generation Sample App</h1>
+    <p>
+        Vertex AI の <a href="Controlled generation"> 機能のデモです。
+        レスポンススキーマを定義すると、プロンプトの出力を制御することができます。
+    </p>
     <form id="myForm" method="POST">
         <label>プロンプト</label><br>
-        <textarea id="textarea" name="text" cols=36 rows=10></textarea><br>
+        <textarea id="textarea" name="text" cols=36 rows=10>
+カレーの材料の野菜を３つ教えて
+        </textarea><br>
         <label>レスポンススキーマ</label><br>
         <textarea id="textarea" name="schema" cols=48 rows=16>{
     "type": "array",
