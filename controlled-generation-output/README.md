@@ -1,4 +1,4 @@
-# Control Generated Output
+# Controlled Generation Output
 https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/control-generated-output
 
 # Memo
