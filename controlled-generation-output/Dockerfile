@@ -2,7 +2,7 @@ FROM python:3.11-slim
 
 ENV PYTHONUNBUFFERED True
 # Google Cloud プロジェクトのID
-ENV PROJECT_ID onuma-sho-test-002
+ENV PROJECT_ID <%PROJECT_ID%>
 
 ENV APP_HOME /app
 WORKDIR $APP_HOME
