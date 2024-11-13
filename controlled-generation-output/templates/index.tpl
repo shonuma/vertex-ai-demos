@@ -8,7 +8,7 @@
 <body>
     <h1>Gemini Controlled generation Sample App</h1>
     <p>
-        Vertex AI の <a href="Controlled generation"> 機能のデモです。
+        Vertex AI の Controlled generation 機能のデモです。
         レスポンススキーマを定義すると、プロンプトの出力を制御することができます。
     </p>
     <form id="myForm" method="POST">
